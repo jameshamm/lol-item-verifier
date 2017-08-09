@@ -1,20 +1,13 @@
-import json
+def run_dev_tests():
+    """Runs the currently known developing tests from the imports below"""
+    import test_item_paths
+    import test_item_sanity
 
+    from util import TEST_STATUS, run_tests
 
-DEFAULT_PATH = "items-7_15_1-en_US_pretty.json"
+    print("--- Running developing tests ---")
+    run_tests(TEST_STATUS.in_development)
 
-def run():
-    items = load_items()
-
-    print(json.dumps(items["data"], indent=4))
-
-
-def load_items(filepath=DEFAULT_PATH):
-    """ filepath: The path to the item set
-        Returns a dict
-    """
-    with open(filepath) as f:
-        return json.load(f)
 
 if __name__ == "__main__":
-    run()
+    run_dev_tests()

@@ -1,11 +1,7 @@
-from main import load_items
-from util import TEST_STATUS, set_status
+from util import TEST_STATUS, set_status, run_tests
 
 
-TESTS = dict()
-
-
-@set_status(TEST_STATUS.in_development, TESTS)
+@set_status(TEST_STATUS.in_development)
 def test_items_dependencies_and_upgrades(data_set):
     """ Test every item to make sure all items it builds into also lists it as a dependency"""
 
@@ -58,7 +54,7 @@ def test_items_dependencies_and_upgrades(data_set):
     return True, None
 
 
-@set_status(TEST_STATUS.in_development, TESTS)
+@set_status(TEST_STATUS.in_development)
 def test_item_depth(data_set):
     """Check the depth for each item"""
     bad_depth_items = list()
@@ -93,17 +89,5 @@ def test_item_depth(data_set):
     return True, None
 
 
-def run_dev_tests():
-    """Run the tests in this file that are marked as ready"""
-    data_set = load_items()
-
-    for test in TESTS[TEST_STATUS.in_development]:
-        result, log = test(data_set)
-        message = test.__name__ + ": " + ("PASSED" if result else "FAILED")
-        if log:
-            message += " - " + log
-        print(message)
-
-
 if __name__ == "__main__":
-    run_dev_tests()
+    run_tests(TEST_STATUS.in_development)
