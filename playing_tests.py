@@ -1,7 +1,7 @@
 from util import TEST_STATUS, set_status, run_tests
 
 
-@set_status(TEST_STATUS.in_development)
+@set_status(TEST_STATUS.unused)
 def test_stats_work(data_set):
     listed_stats = data_set["basic"]["stats"]
     listed_stats = set(listed_stats.keys())
@@ -21,7 +21,7 @@ def test_stats_work(data_set):
     return True, None
 
 
-@set_status(TEST_STATUS.in_development)
+@set_status(TEST_STATUS.unused)
 def test_available_on_a_map(data_set):
     items = data_set["data"]
 
@@ -32,11 +32,10 @@ def test_available_on_a_map(data_set):
             not_available.append(item)
 
     if not_available:
-        message = "The following items cannot be bought: " + str(not_available)
-        return False, message
+        message = "The following items cannot be bought: "
+        return False, message + str(not_available)
 
     return True, None
-
 
 
 @set_status(TEST_STATUS.in_development)
@@ -46,19 +45,19 @@ def test_sprites_are_unique(data_set):
     seen = dict()
     for item, data in items.items():
         image = data["image"]
-        pic, x, y = image["sprite"], image["x"], image["y"]
-        if (pic, x, y) not in seen:
-            seen[pic, x, y] = []
-        seen[pic, x, y].append(item)
-    
+        image_data = image["sprite"], image["x"], image["y"]
+        if image_data not in seen:
+            seen[image_data] = []
+        seen[image_data].append(item)
+
     repeats = dict()
     for image, items_seen in seen.items():
         if len(items_seen) > 1:
             repeats[image] = items_seen
 
     if repeats:
-        message = "The following items share a sprite: " + str(repeats)
-        return False, message
+        message = "The following items share a sprite: "
+        return False, message + str(repeats)
 
     return True, None
 

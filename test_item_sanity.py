@@ -13,14 +13,14 @@ def test_sells_well(data_set):
             bad_prices.append(item)
 
     if bad_prices:
-        message = "The following items can be sold for more than they cost: " + str(bad_prices)
-        return False, message
-
+        message = "The following items can be sold for more than they cost: "
+        return False, message + str(bad_prices)
     return True, None
 
 
 @set_status(TEST_STATUS.in_development)
 def test_cannot_build_itself(data_set):
+    """Test an item isn't listed as a component or an upgrade for itself"""
     items = data_set["data"]
 
     can_build_into_itself = list()
@@ -34,9 +34,8 @@ def test_cannot_build_itself(data_set):
             can_build_into_itself.append(item)
 
     if can_build_into_itself:
-        message = "The following items can build into themselves: " + str(bad_prices)
-        return False, message
-
+        message = "The following items can build into themselves: "
+        return False, message + str(can_build_into_itself)
     return True, None
 
 

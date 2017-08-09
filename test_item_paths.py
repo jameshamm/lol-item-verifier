@@ -49,14 +49,14 @@ def test_items_dependencies_and_upgrades(data_set):
                         bad_links[dependency].append(item)
 
     if bad_links:
-        message = "The following items are not linked correctly: " + str(bad_links)
-        return False, message
+        message = "The following items are not linked correctly: "
+        return False, message + str(bad_links)
     return True, None
 
 
 @set_status(TEST_STATUS.in_development)
 def test_item_depth(data_set):
-    """Check the depth for each item"""
+    """Check the depth for each item is correct relative to the item's components"""
     bad_depth_items = list()
     default_depth = data_set["basic"]["depth"]
     items = data_set["data"]
@@ -83,11 +83,36 @@ def test_item_depth(data_set):
             bad_depth_items.append(item)
 
     if bad_depth_items:
-        message = "The following items are not listing their depth correctly: " + str(bad_depth_items)
-        return False, message
-
+        message = "The following items are not listing their depth correctly: "
+        return False, message + str(bad_depth_items)
     return True, None
 
+
+@set_status(TEST_STATUS.in_development)
+def test_item_components_available(data_set):
+    """Check the depth for each item is correct relative to the item's components"""
+    bad_depth_items = list()
+    default_depth = data_set["basic"]["depth"]
+    items = data_set["data"]
+
+
+    unavailable_components = dict()
+    for item, data in items.items():
+        if "from" in data:
+            for depedency in data["from"]:
+                component = items[depedency]
+                for map_id, available in data["maps"].items():
+                    if available and not component["maps"][map_id]:
+                        # The item is available, but it's component isn't on this map
+                        if item not in unavailable_components:
+                            unavailable_components[item] = list()
+                        unavailable_components[item].append(depedency)
+                        break
+
+    if unavailable_components:
+        message = "The following items have components which are not available on all the same maps"
+        return False, message + str(unavailable_components)
+    return True, None
 
 if __name__ == "__main__":
     run_tests(TEST_STATUS.in_development)

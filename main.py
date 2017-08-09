@@ -1,5 +1,5 @@
 def run_dev_tests():
-    """Runs the currently known developing tests from the imports below"""
+    """Run the currently known developing tests from the imports below"""
     import test_item_paths
     import test_item_sanity
 

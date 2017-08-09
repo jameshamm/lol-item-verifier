@@ -1,6 +1,6 @@
 {
   "type": "item",
-  "version": "7.15.1",
+  "version": "7.16.1",
   "basic": {
     "name": "",
     "rune": {
@@ -32,6 +32,7 @@
     "inStore": true,
     "hideFromAll": false,
     "requiredChampion": "",
+    "requiredAlly": "",
     "stats": {
       "FlatHPPoolMod": 0,
       "rFlatHPModPerLevel": 0,
@@ -1468,10 +1469,10 @@
         "h": 48
       },
       "gold": {
-        "base": 525,
+        "base": 600,
         "purchasable": true,
-        "total": 2425,
-        "sell": 1698
+        "total": 2500,
+        "sell": 1750
       },
       "tags": [
         
@@ -1627,10 +1628,10 @@
         "h": 48
       },
       "gold": {
-        "base": 525,
+        "base": 600,
         "purchasable": true,
-        "total": 2425,
-        "sell": 1698
+        "total": 2500,
+        "sell": 1750
       },
       "tags": [
         
@@ -1788,10 +1789,10 @@
         "h": 48
       },
       "gold": {
-        "base": 525,
+        "base": 600,
         "purchasable": true,
-        "total": 2425,
-        "sell": 1698
+        "total": 2500,
+        "sell": 1750
       },
       "tags": [
         
@@ -3002,7 +3003,7 @@
     },
     "2302": {
       "name": "Eye of the Oasis",
-      "description": "<stats>+200 Health<br>+125% Base Health Regen <br>+10% Cooldown Reduction<br>+2 Gold per 10 seconds<\/stats><br><br><unique>UNIQUE Passive - Favor: <\/unique>Enemy minions killed by your allies sometimes drop coins that give either <font color='#D4AF37'>40<\/font> gold or <font color='#44DDFF'>15%<\/font> missing mana (minimum 15). Cannon minions always drop coins.<br><active>UNIQUE Active - Warding:<\/active> Consumes a charge to place a <font color='#BBFFFF'>Stealth Ward<\/font> that reveals the surrounding area for 150 seconds. Holds up to 4 charges which refill upon visiting the shop<hr><passive>QUEST:<\/passive> Earn 650 gold using this item.<br><passive>REWARD:<\/passive> <font color='#CFBF84'>Favor<\/font> is upgraded to <font color='#CFBF84'><a href='coinlinequestreward'>Emperor's Favor<\/a><\/font> and allied champions moving toward you gain 8% movement speed.<br><br><groupLimit>Limited to 1 Gold Income Item.<\/groupLimit>",
+      "description": "<stats>+200 Health<br>+125% Base Health Regen <br>+10% Cooldown Reduction<br>+2 Gold per 10 seconds<\/stats><br><br><unique>UNIQUE Passive - Favor: <\/unique>Enemy minions killed by your allies sometimes drop coins that give either <font color='#D4AF37'>40<\/font> gold or <font color='#44DDFF'>10%<\/font> missing mana (minimum 15). Cannon minions always drop coins.<br><active>UNIQUE Active - Warding:<\/active> Consumes a charge to place a <font color='#BBFFFF'>Stealth Ward<\/font> that reveals the surrounding area for 150 seconds. Holds up to 4 charges which refill upon visiting the shop<hr><passive>QUEST:<\/passive> Earn 650 gold using this item.<br><passive>REWARD:<\/passive> <font color='#CFBF84'>Favor<\/font> is upgraded to <font color='#CFBF84'><a href='coinlinequestreward'>Emperor's Favor<\/a><\/font> and allied champions moving toward you gain 8% movement speed.<br><br><groupLimit>Limited to 1 Gold Income Item.<\/groupLimit>",
       "colloq": ";",
       "plaintext": "Provides Gold, Mana, and Stealth Wards over time",
       "from": [
@@ -3056,7 +3057,7 @@
         "Effect9Amount": "0",
         "Effect10Amount": "650",
         "Effect11Amount": "40",
-        "Effect12Amount": "0.15",
+        "Effect12Amount": "0.1",
         "Effect13Amount": "15"
       },
       "depth": 3
@@ -5097,7 +5098,7 @@
     },
     "3069": {
       "name": "Talisman of Ascension",
-      "description": "<stats>+45 Armor<br>+175% Base Health Regen <br>+10% Cooldown Reduction<br>+2 Gold per 10 seconds<\/stats><br><br><unique>UNIQUE Passive - Point Runner:<\/unique> Builds up to +20% Movement Speed over 2 seconds while near turrets, fallen turrets and Void Gates.<br><unique>UNIQUE Passive - Favor: <\/unique>Enemy minions killed by your allies sometimes drop coins that give either <font color='#D4AF37'>40<\/font> gold or <font color='#44DDFF'>15%<\/font> missing mana (minimum 15). Cannon minions always drop coins.<br><active>UNIQUE Active:<\/active> Grants nearby allies +40% Movement Speed for 3 seconds (60 second cooldown).<hr><passive>QUEST:<\/passive> Earn 650 gold using this item.<br><passive>REWARD:<\/passive> <font color='#CFBF84'>Favor<\/font> is upgraded to <font color='#CFBF84'><a href='coinlinequestreward'>Emperor's Favor<\/a><\/font> and allied champions moving toward you gain 8% movement speed.<br><br><groupLimit>Limited to 1 Gold Income Item.<\/groupLimit><br><br><rules><font color='#447777'>''Praise the sun.'' - Historian Shurelya, 22 September, 25 CLE<\/font><\/rules>",
+      "description": "<stats>+45 Armor<br>+175% Base Health Regen <br>+10% Cooldown Reduction<br>+2 Gold per 10 seconds<\/stats><br><br><unique>UNIQUE Passive - Point Runner:<\/unique> Builds up to +20% Movement Speed over 2 seconds while near turrets, fallen turrets and Void Gates.<br><unique>UNIQUE Passive - Favor: <\/unique>Enemy minions killed by your allies sometimes drop coins that give either <font color='#D4AF37'>40<\/font> gold or <font color='#44DDFF'>10%<\/font> missing mana (minimum 15). Cannon minions always drop coins.<br><active>UNIQUE Active:<\/active> Grants nearby allies +40% Movement Speed for 3 seconds (60 second cooldown).<hr><passive>QUEST:<\/passive> Earn 650 gold using this item.<br><passive>REWARD:<\/passive> <font color='#CFBF84'>Favor<\/font> is upgraded to <font color='#CFBF84'><a href='coinlinequestreward'>Emperor's Favor<\/a><\/font> and allied champions moving toward you gain 8% movement speed.<br><br><groupLimit>Limited to 1 Gold Income Item.<\/groupLimit><br><br><rules><font color='#447777'>''Praise the sun.'' - Historian Shurelya, 22 September, 25 CLE<\/font><\/rules>",
       "colloq": ";shurelya;reverie",
       "plaintext": "Increases Health \/ Mana Regeneration and Cooldown Reduction. Activate to speed up nearby allies.",
       "from": [
@@ -5151,7 +5152,7 @@
         "Effect9Amount": "2",
         "Effect10Amount": "650",
         "Effect11Amount": "40",
-        "Effect12Amount": "0.15",
+        "Effect12Amount": "0.1",
         "Effect13Amount": "15"
       },
       "depth": 3
@@ -6205,7 +6206,7 @@
     },
     "3096": {
       "name": "Nomad's Medallion",
-      "description": "<stats>+50% Base Health Regen <br>+10% Cooldown Reduction<br>+2 Gold per 10 seconds<\/stats><br><br><unique>UNIQUE Passive - Favor:<\/unique> Enemy minions killed by your allies sometimes drop coins that give either <font color='#D4AF37'>40<\/font> gold or <font color='#44DDFF'>15%<\/font> missing mana (minimum 15). Cannon minions always drop coins.<hr><passive>QUEST:<\/passive> Earn 650 gold using this item.<br><passive>REWARD:<\/passive> <font color='#CFBF84'>Favor<\/font> is upgraded to <font color='#CFBF84'><a href='coinlinequestreward'>Emperor's Favor<\/a><\/font> and allied champions moving toward you gain 8% movement speed.<br><br><groupLimit>Limited to 1 Gold Income Item.<\/groupLimit><br><br><rules><font color='#447777'>''The medallion shines with the glory of a thousand voices when exposed to the sun.'' - Historian Shurelya, 22 June, 24 CLE<\/font><\/rules>",
+      "description": "<stats>+50% Base Health Regen <br>+10% Cooldown Reduction<br>+2 Gold per 10 seconds<\/stats><br><br><unique>UNIQUE Passive - Favor:<\/unique> Enemy minions killed by your allies sometimes drop coins that give either <font color='#D4AF37'>40<\/font> gold or <font color='#44DDFF'>10%<\/font> missing mana (minimum 15). Cannon minions always drop coins.<hr><passive>QUEST:<\/passive> Earn 650 gold using this item.<br><passive>REWARD:<\/passive> <font color='#CFBF84'>Favor<\/font> is upgraded to <font color='#CFBF84'><a href='coinlinequestreward'>Emperor's Favor<\/a><\/font> and allied champions moving toward you gain 8% movement speed.<br><br><groupLimit>Limited to 1 Gold Income Item.<\/groupLimit><br><br><rules><font color='#447777'>''The medallion shines with the glory of a thousand voices when exposed to the sun.'' - Historian Shurelya, 22 June, 24 CLE<\/font><\/rules>",
       "colloq": ";",
       "plaintext": "Grants gold and mana when nearby minions die that you didn't kill",
       "from": [
@@ -6261,7 +6262,7 @@
         "Effect9Amount": "0",
         "Effect10Amount": "650",
         "Effect11Amount": "40",
-        "Effect12Amount": "0.15",
+        "Effect12Amount": "0.1",
         "Effect13Amount": "15"
       },
       "depth": 2
@@ -9387,7 +9388,7 @@
     },
     "3301": {
       "name": "Ancient Coin",
-      "description": "<stats>+5% Cooldown Reduction<br>+2 Gold per 10 seconds<\/stats><br><br><unique>UNIQUE Passive - Favor:<\/unique> Enemy minions killed by your allies sometimes drop coins that give either <font color='#D4AF37'>25<\/font> gold or <font color='#44DDFF'>15%<\/font> missing mana (minimum 15). Cannon minions always drop coins.<hr><passive>QUEST:<\/passive> Earn 650 gold using this item and upgrade to <font color='#CFBF84'>Nomad's Medallion<\/font>.<br><passive>REWARD:<\/passive> <font color='#CFBF84'>Favor<\/font> is upgraded to <font color='#CFBF84'><a href='coinlinequestreward'>Emperor's Favor<\/a><\/font> and allied champions moving toward you gain 8% movement speed.<br><br><groupLimit>Limited to 1 Gold Income Item.<\/groupLimit><br><br><i><font color='#447777'>''Gold dust rises from the desert and clings to the coin.'' - Historian Shurelya, 11 November, 23 CLE<\/font><\/i>",
+      "description": "<stats>+5% Cooldown Reduction<br>+2 Gold per 10 seconds<\/stats><br><br><unique>UNIQUE Passive - Favor:<\/unique> Enemy minions killed by your allies sometimes drop coins that give either <font color='#D4AF37'>25<\/font> gold or <font color='#44DDFF'>10%<\/font> missing mana (minimum 15). Cannon minions always drop coins.<hr><passive>QUEST:<\/passive> Earn 650 gold using this item and upgrade to <font color='#CFBF84'>Nomad's Medallion<\/font>.<br><passive>REWARD:<\/passive> <font color='#CFBF84'>Favor<\/font> is upgraded to <font color='#CFBF84'><a href='coinlinequestreward'>Emperor's Favor<\/a><\/font> and allied champions moving toward you gain 8% movement speed.<br><br><groupLimit>Limited to 1 Gold Income Item.<\/groupLimit><br><br><i><font color='#447777'>''Gold dust rises from the desert and clings to the coin.'' - Historian Shurelya, 11 November, 23 CLE<\/font><\/i>",
       "colloq": ";",
       "plaintext": "Grants gold and mana when nearby minions die that you didn't kill",
       "into": [
@@ -9437,7 +9438,7 @@
         "Effect9Amount": "0",
         "Effect10Amount": "650",
         "Effect11Amount": "40",
-        "Effect12Amount": "0.15",
+        "Effect12Amount": "0.1",
         "Effect13Amount": "15"
       }
     },
