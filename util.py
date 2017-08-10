@@ -28,7 +28,7 @@ def set_status(status, tests=None):
 
 def run_tests(*statuses):
     """Run the tests that are marked with any of the passed statuses"""
-    data_set = load_items()
+    data_set = load_data()
 
     if not statuses:
         # Default to running tests marked as ready
@@ -44,7 +44,7 @@ def run_tests(*statuses):
                 print(message)
 
 
-def load_items(filepath=DEFAULT_PATH):
+def load_data(filepath=DEFAULT_PATH):
     """Load the items from a json file into a dict"""
     with open(filepath) as file:
         return json.load(file)

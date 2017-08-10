@@ -1,28 +1,51 @@
 from util import TEST_STATUS, set_status, run_tests
 
 
-@set_status(TEST_STATUS.unused)
-def test_stats_work(data_set):
-    listed_stats = data_set["basic"]["stats"]
-    listed_stats = set(listed_stats.keys())
+@set_status(TEST_STATUS.in_development)
+def test_colloq_is_useful(data_set):
+    default_colloq = data_set["basic"]["colloq"]
+    items = data_set["data"]
 
-    known_stats = set()
+    bad_colloqs = list()
 
-    for data in data_set["data"].values():
-        stats = data["stats"]
-        for stat in stats.keys():
-            known_stats.add(stat)
+    for item, data in items.items():
+        if "colloq" in data:
+            colloq = data["colloq"]
+            if colloq == "" or colloq == default_colloq:
+                # The colloq is empty or isn't needed
+                bad_colloqs.append(item)
+            else:
+                print(item, data["name"], "-", data["colloq"])
 
-    # print(listed_stats)
-    # print(known_stats)
-    print("Unused stats")
-    print(listed_stats - known_stats)
+    if bad_colloqs:
+        message = "The following items have an unnecessary colloq property: "
+        return False, message + str(bad_colloqs)
 
     return True, None
 
 
 @set_status(TEST_STATUS.unused)
-def test_available_on_a_map(data_set):
+def test_stats_work(data_set):
+    listed_stats = data_set["basic"]["stats"]
+    listed_stats = set(listed_stats.keys())
+
+    used_stats = set()
+
+    for data in data_set["data"].values():
+        stats = data["stats"]
+        for stat in stats.keys():
+            used_stats.add(stat)
+
+    # print(listed_stats)
+    # print(used_stats)
+    print("Unused stats")
+    print(listed_stats - used_stats)
+
+    return True, None
+
+
+@set_status(TEST_STATUS.unused)
+def test_available(data_set):
     items = data_set["data"]
 
     not_available = list()
