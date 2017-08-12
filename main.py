@@ -1,3 +1,12 @@
+"""
+The main file to run all the implemented tests
+
+Run this file with python3 main.py to run all (developing) tests
+
+TODO: Take input on what tests to run and change the data set to use
+"""
+
+
 def run_dev_tests():
     """Run the currently known developing tests from the imports below"""
     import test_item_paths

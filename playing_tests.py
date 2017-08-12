@@ -14,8 +14,6 @@ def test_colloq_is_useful(data_set):
             if colloq == "" or colloq == default_colloq:
                 # The colloq is empty or isn't needed
                 bad_colloqs.append(item)
-            else:
-                print(item, data["name"], "-", data["colloq"])
 
     if bad_colloqs:
         message = "The following items have an unnecessary colloq property: "

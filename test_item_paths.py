@@ -1,13 +1,19 @@
+"""
+Check that items build into one another correctly
+
+All tests here validate the links between items
+"""
 from util import TEST_STATUS, set_status, run_tests
 
 
 @set_status(TEST_STATUS.in_development)
-def test_items_dependencies_and_upgrades(data_set):
+def test_item_components_and_upgrades(data_set):
     """ Test every item to make sure all items it builds into also lists it as a dependency"""
-
-    items = data_set["data"]
+    all_items = data_set["data"]
     bad_links = dict()
-    for item, data in items.items():
+
+    for item, data in all_items.items():
+        # Check the upgrades all list the item as a component
         try:
             upgrades = data["into"]
         except KeyError:
@@ -15,38 +21,39 @@ def test_items_dependencies_and_upgrades(data_set):
             pass
         else:
             for upgrade in upgrades:
-                if upgrade not in items:
+                if upgrade not in all_items:
                     # Error case; The upgrade doesn't exist
                     if item not in bad_links:
                         bad_links[item] = list()
                     bad_links[item].append(upgrade)
                 else:
-                    upgraded_item = items[upgrade]
+                    upgraded_item = all_items[upgrade]
                     if "from" not in upgraded_item or item not in upgraded_item["from"]:
                         # Error case; The item hasn't been linked correctly
                         if item not in bad_links:
                             bad_links[item] = list()
                         bad_links[item].append(upgrade)
 
+        # Check that all components list this item as an upgrade
         try:
-            dependencies = data["from"]
+            components = data["from"]
         except KeyError:
-            # The item isn't built from anything
+            # The item has no components
             continue
         else:
-            for dependency in dependencies:
-                if dependency not in items:
-                    # Error case; The dependency doesn't exist
-                    if dependency not in bad_links:
-                        bad_links[dependency] = list()
-                    bad_links[dependency].append(item)
+            for component in components:
+                if component not in all_items:
+                    # Error case; The component doesn't exist
+                    if component not in bad_links:
+                        bad_links[component] = list()
+                    bad_links[component].append(item)
                 else:
-                    dependent_item = items[dependency]
+                    dependent_item = all_items[component]
                     if "into" not in dependent_item or item not in dependent_item["into"]:
                         # Error case; The item hasn't been linked correctly
-                        if dependency not in bad_links:
-                            bad_links[dependency] = list()
-                        bad_links[dependency].append(item)
+                        if component not in bad_links:
+                            bad_links[component] = list()
+                        bad_links[component].append(item)
 
     if bad_links:
         message = "The following items are not linked correctly: "
@@ -58,15 +65,15 @@ def test_items_dependencies_and_upgrades(data_set):
 def test_item_depth(data_set):
     """Check the depth for each item is correct relative to the item's components"""
     bad_depth_items = list()
-    default_depth = data_set["basic"]["depth"]
-    items = data_set["data"]
+    default_depth = data_set["basic"]["depth"]  # Assume this is the smallest depth
+    all_items = data_set["data"]
 
-    for item, data in items.items():
+    for item, data in all_items.items():
         if "depth" in data:
             if "from" in data:
                 largest_depth = default_depth
                 for dependency in data["from"]:
-                    dependent_item = items[dependency]
+                    dependent_item = all_items[dependency]
                     depth = dependent_item["depth"] if "depth" in dependent_item else default_depth
                     largest_depth = max(largest_depth, depth)
 
@@ -91,16 +98,13 @@ def test_item_depth(data_set):
 @set_status(TEST_STATUS.in_development)
 def test_item_components_available(data_set):
     """Check the depth for each item is correct relative to the item's components"""
-    bad_depth_items = list()
-    default_depth = data_set["basic"]["depth"]
-    items = data_set["data"]
-
+    all_items = data_set["data"]
 
     unavailable_components = dict()
-    for item, data in items.items():
+    for item, data in all_items.items():
         if "from" in data:
             for depedency in data["from"]:
-                component = items[depedency]
+                component = all_items[depedency]
                 for map_id, available in data["maps"].items():
                     if available and not component["maps"][map_id]:
                         # The item is available, but it's component isn't on this map
@@ -110,9 +114,10 @@ def test_item_components_available(data_set):
                         break
 
     if unavailable_components:
-        message = "The following items have components which are not available on all the same maps"
+        message = "The following items have components which are not available on all the same maps "
         return False, message + str(unavailable_components)
     return True, None
+
 
 if __name__ == "__main__":
     run_tests(TEST_STATUS.in_development)

@@ -1,3 +1,12 @@
+"""
+Contains logic to reduce the size and possibly the complexity of the data set
+
+Currently minifying the data set outputs it with all unnecessary whitespace removed and
+removes item data that is identical to the default values
+
+TODO: Change some colloqs to tags
+TODO: Investigate some effects. Some are 0 which seems unusual, and others seem unused.
+"""
 import json
 
 from util import load_data
@@ -7,7 +16,7 @@ FILE_AMMENDMENT = "mini"
 
 
 def minify(filepath):
-    """Minifis the file by removing unnecessary whitespace
+    """Minifies the file by removing unnecessary whitespace
     Also remove properties which are the same as the default properties of an item"""
     data_set = load_data(filepath)
 
@@ -18,12 +27,12 @@ def minify(filepath):
 
     for item, data in items.items():
         smaller_item = dict()
-        for k, v in data.items():
-            if k in basic_data and v == basic_data[k]:
+        for key, value in data.items():
+            if key in basic_data and value == basic_data[key]:
                 # This property is the same as the default
                 # It doesn't need to be re-specified
                 continue
-            smaller_item[k] = v
+            smaller_item[key] = value
 
         smaller_items[item] = smaller_item
 
@@ -33,8 +42,9 @@ def minify(filepath):
     new_filepath = filename + "_" + FILE_AMMENDMENT + "." + extension
 
     with open(new_filepath, "w") as file:
-        # Write the json minified and with a deterministic key order
-        file.write(json.dumps(data_set, separators=(',',':'), sort_keys=True))
+        # Write the json minified and with a deterministic(?) key order
+        file.write(json.dumps(data_set, separators=(',', ':'), sort_keys=True))
+
 
 if __name__ == "__main__":
-    minify("items-7_16_1-en_US.json")
+    minify("data_set/items-7_16_1-en_US.json")
