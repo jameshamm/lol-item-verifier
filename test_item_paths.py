@@ -56,8 +56,8 @@ def test_item_components_and_upgrades(data_set):
                         bad_links[component].append(item)
 
     if bad_links:
-        message = "The following items are not linked correctly: "
-        return False, message + str(bad_links)
+        message = "Some items do not link their dependencies or upgrades correctly"
+        return False, message, bad_links
     return True, None
 
 
@@ -90,8 +90,8 @@ def test_item_depth(data_set):
             bad_depth_items.append(item)
 
     if bad_depth_items:
-        message = "The following items are not listing their depth correctly: "
-        return False, message + str(bad_depth_items)
+        message = "Some items do not list their depth correctly"
+        return False, message, bad_depth_items
     return True, None
 
 
@@ -114,8 +114,8 @@ def test_item_components_available(data_set):
                         break
 
     if unavailable_components:
-        message = "The following items have components which are not available on all the same maps "
-        return False, message + str(unavailable_components)
+        message = "Some items have components which are not available on all the same maps"
+        return False, message, unavailable_components
     return True, None
 
 

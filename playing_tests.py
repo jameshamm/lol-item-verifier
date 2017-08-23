@@ -16,8 +16,8 @@ def test_colloq_is_useful(data_set):
                 bad_colloqs.append(item)
 
     if bad_colloqs:
-        message = "The following items have an unnecessary colloq property: "
-        return False, message + str(bad_colloqs)
+        message = "Some items have an unnecessary colloq property"
+        return False, message, bad_colloqs
 
     return True, None
 
@@ -53,8 +53,8 @@ def test_available(data_set):
             not_available.append(item)
 
     if not_available:
-        message = "The following items cannot be bought: "
-        return False, message + str(not_available)
+        message = "Some items cannot be bought on any map"
+        return False, message, not_available
 
     return True, None
 
@@ -77,8 +77,8 @@ def test_sprites_are_unique(data_set):
             repeats[image] = items_seen
 
     if repeats:
-        message = "The following items share a sprite: "
-        return False, message + str(repeats)
+        message = "Some items share the same sprite"
+        return False, message, repeats
 
     return True, None
 

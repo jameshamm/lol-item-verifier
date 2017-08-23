@@ -6,7 +6,7 @@ All tests here should only check one item at a time and not compare it to other 
 from util import TEST_STATUS, set_status, run_tests
 
 
-@set_status(TEST_STATUS.in_development)
+@set_status(TEST_STATUS.unused)
 def test_tags_in_stats(data_set):
     """Check that any stats mentioned are tagged
     TODO: Finish this test"""
@@ -27,7 +27,7 @@ def test_tags_in_stats(data_set):
 @set_status(TEST_STATUS.in_development)
 def test_sells_well(data_set):
     """Make sure no item can be sold for more than it costs.
-    If such an item exists, it could be repeatedly bought and sold for infinite gold"""
+    If such an item exists, it could be repeatedly bought and sold for (fast) infinite gold"""
     all_items = data_set["data"]
 
     bad_prices = list()
@@ -38,14 +38,15 @@ def test_sells_well(data_set):
             bad_prices.append(item)
 
     if bad_prices:
-        message = "The following items can be sold for more than they cost: "
-        return False, message + str(bad_prices)
+        message = "Some items can be sold for more than they cost"
+        return False, message, bad_prices
     return True, None
 
 
 @set_status(TEST_STATUS.in_development)
 def test_cannot_build_itself(data_set):
-    """Test an item isn't listed as a component or an upgrade for itself"""
+    """Test an item isn't listed as a component or an upgrade for itself
+    This could cause loops in dependency checking tests"""
     all_items = data_set["data"]
 
     can_build_into_itself = list()
@@ -59,8 +60,8 @@ def test_cannot_build_itself(data_set):
             can_build_into_itself.append(item)
 
     if can_build_into_itself:
-        message = "The following items can build into themselves: "
-        return False, message + str(can_build_into_itself)
+        message = "Some items can build into themselves"
+        return False, message, can_build_into_itself
     return True, None
 
 

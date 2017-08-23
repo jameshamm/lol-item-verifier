@@ -43,10 +43,12 @@ def run_tests(*statuses):
     for status in statuses:
         if status in TESTS:
             for test in TESTS[status]:
-                result, log = test(data_set)
-                message = test.__name__ + ": " + ("PASSED" if result else "FAILED")
-                if log:
-                    message += " - " + log
+                # Expect either a pass, or a fail along with a description of what went wrong and the offending items
+                success, *log = test(data_set)
+                message = test.__name__ + ": " + ("PASSED" if success else "FAILED")
+                if not success:
+                    error_log, bad_items = log
+                    message += " - " + error_log + ": " + str(bad_items)
                 print(message)
 
 
