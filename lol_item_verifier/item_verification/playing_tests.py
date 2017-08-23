@@ -1,8 +1,9 @@
-from util import TEST_STATUS, set_status, run_tests
+from . import TEST_STATUS, set_status, run_tests
 
 
 @set_status(TEST_STATUS.in_development)
 def test_colloq_is_useful(data_set):
+    """Check the colloq contains some actual content"""
     default_colloq = data_set["basic"]["colloq"]
     items = data_set["data"]
 
@@ -61,6 +62,7 @@ def test_available(data_set):
 
 @set_status(TEST_STATUS.in_development)
 def test_sprites_are_unique(data_set):
+    """Check that no two items share the same sprite"""
     items = data_set["data"]
 
     seen = dict()

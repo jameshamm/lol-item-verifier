@@ -1,7 +1,7 @@
 1. Implement search as it currently is in the item shop
-    Load items from the data set
-    Take in the command line args
-    Implement a simple substring match
+    * Load items from the data set
+    * Take in the command line args
+    * Implement a simple substring match
 2. Write some tests for it with a small item set
 3. Implement a distance based search
 4. Measure uniqueness of terms (how many results per term)

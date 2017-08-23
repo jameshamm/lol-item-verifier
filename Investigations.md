@@ -1,3 +1,5 @@
+This file details some issues which need a human touch. The problems are either not straightforward to automatically find, need more information on their internals, or are minor and it is probably not worth looking into.
+
 ## Legacy Effects
 
 ### Doran's Balde (1055):
@@ -6,6 +8,11 @@
 
     Task: Sift through previous item set versions until this number is affected. The most likely patch this became obsolete is 3.14
 
+### Ardent Censer (3504):
+
+    Issue: In the patch 7.17, ardent censer had it's on hit effect changed from draining 20 - 35 health to a flat 25. In addition, it's attack speed buff has also been fixed to 25% from 20% to 35%. The item still contains "Effect6Amount" which is set to "0.35", and "Effect7Amount" at "35". These seem to no longer be in use.
+
+## Generic Issues
 
 ### Cull (1083)
     Issue: cull has dblade listed in its colloq.

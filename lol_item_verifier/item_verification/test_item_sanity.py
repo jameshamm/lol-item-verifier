@@ -1,7 +1,7 @@
-"""
-Contains tests that check the stand alone validity of an item
+"""Contains tests that check the (stand alone) validity of an item
 
-All tests here should only check one item at a time and not compare it to other items
+All tests here should check one item at a time and
+should not compare it to other items.
 """
 from . import TEST_STATUS, set_status, run_tests
 
@@ -27,7 +27,8 @@ def test_tags_in_stats(data_set):
 @set_status(TEST_STATUS.in_development)
 def test_sells_well(data_set):
     """Make sure no item can be sold for more than it costs.
-    If such an item exists, it could be repeatedly bought and sold for (fast) infinite gold"""
+    If such an item exists, it could be repeatedly bought and
+    sold for (fast) infinite gold."""
     all_items = data_set["data"]
 
     bad_prices = list()
@@ -45,8 +46,9 @@ def test_sells_well(data_set):
 
 @set_status(TEST_STATUS.in_development)
 def test_cannot_build_itself(data_set):
-    """Test an item isn't listed as a component or an upgrade for itself
-    This could cause loops in dependency checking tests"""
+    """Check an item is not listed as a component or
+    an upgrade for itself.
+    This could cause loops in dependency checking tests."""
     all_items = data_set["data"]
 
     can_build_into_itself = list()

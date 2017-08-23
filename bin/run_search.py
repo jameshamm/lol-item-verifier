@@ -6,4 +6,4 @@ if __name__ == "__main__":
     dname = os.path.dirname(os.path.dirname(abspath))
     os.chdir(os.path.join(dname, "lol_item_verifier"))
 
-    subprocess.call(["python3", "run_item_verification.py"])
+    subprocess.call(["python3", "item_search.py"])

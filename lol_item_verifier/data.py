@@ -8,6 +8,7 @@ import json
 
 from os import path
 
+
 DNAME = path.dirname(path.abspath(__file__))
 DATA_SET_DIRECTORY_ABSPATH = path.join(DNAME, "data_set")
 
@@ -25,10 +26,13 @@ def load_data(filepath=None):
 
 
 def save_data(data_set, filepath, pretty=False):
+    """Save the data set.
+    
+    If pretty is specified, make the file human readable."""
     with open(filepath, "w") as file:
         if pretty:
-            file.write(json.dumps(data_set, indent=4, sort_keys=True))
+            file.write(
+                json.dumps(data_set, indent=4, sort_keys=True))
         else:
-            file.write(json.dumps(data_set, separators=(',', ':'), sort_keys=True))
-
-
+            file.write(
+                json.dumps(data_set, separators=(',', ':'), sort_keys=True))

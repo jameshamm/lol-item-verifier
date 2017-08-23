@@ -2,7 +2,7 @@
 
 """
 
-from util import load_data
+from lol_item_verifier.data import load_data
 
 
 def match_substring():

@@ -1,14 +1,15 @@
 """
-Check that items build into one another correctly
+Check items build into one another correctly.
 
-All tests here validate the links between items
+All tests here validate the links between items.
 """
 from . import TEST_STATUS, set_status, run_tests
 
 
 @set_status(TEST_STATUS.in_development)
 def test_item_components_and_upgrades(data_set):
-    """ Test every item to make sure all items it builds into also lists it as a dependency"""
+    """Test every item to make sure all items it builds into
+    also lists it as a dependency."""
     all_items = data_set["data"]
     bad_links = dict()
 
@@ -63,7 +64,11 @@ def test_item_components_and_upgrades(data_set):
 
 @set_status(TEST_STATUS.in_development)
 def test_item_depth(data_set):
-    """Check the depth for each item is correct relative to the item's components"""
+    """Check the depth for each item is correct relative
+    to the item's components.
+
+    The depth of an item is one more than the largest depth
+    of any of it's components."""
     bad_depth_items = list()
     default_depth = data_set["basic"]["depth"]  # Assume this is the smallest depth
     all_items = data_set["data"]
@@ -78,7 +83,7 @@ def test_item_depth(data_set):
                     largest_depth = max(largest_depth, depth)
 
                 if data["depth"] != largest_depth + 1:
-                    # The item and/or one of it's components does not have the correct depth
+                    # The item and/or one of it's components has an incorrect depth
                     bad_depth_items.append(item)
 
             elif data["depth"] > default_depth:
@@ -97,7 +102,7 @@ def test_item_depth(data_set):
 
 @set_status(TEST_STATUS.in_development)
 def test_item_components_available(data_set):
-    """Check the depth for each item is correct relative to the item's components"""
+    """Check each component for an item can be built in the same map"""
     all_items = data_set["data"]
 
     unavailable_components = dict()
@@ -107,7 +112,8 @@ def test_item_components_available(data_set):
                 component = all_items[depedency]
                 for map_id, available in data["maps"].items():
                     if available and not component["maps"][map_id]:
-                        # The item is available, but it's component isn't on this map
+                        # On this map the item is available
+                        # but it's component isn't.
                         if item not in unavailable_components:
                             unavailable_components[item] = list()
                         unavailable_components[item].append(depedency)
