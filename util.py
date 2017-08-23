@@ -8,7 +8,7 @@ import json
 
 from enum import Enum
 
-DEFAULT_PATH = "data_set/items-7_16_1-en_US_pretty.json"
+DEFAULT_PATH = "data_set/items-7_17_1-en_US_pretty.json"
 
 TEST_STATUS = Enum('Test_Status', 'ready in_development unused')
 

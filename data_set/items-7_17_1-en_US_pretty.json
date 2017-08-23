@@ -136,6 +136,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Boots of Speed",
@@ -178,6 +179,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Faerie Charm",
@@ -219,6 +221,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Rejuvenation Bead",
@@ -263,6 +266,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Giant's Belt",
@@ -303,6 +307,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Cloak of Agility",
@@ -349,6 +354,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Blasting Wand",
@@ -392,6 +398,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Sapphire Crystal",
@@ -445,6 +452,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Ruby Crystal",
@@ -491,6 +499,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Cloth Armor",
@@ -536,6 +545,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Chain Vest",
@@ -583,6 +593,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Null-Magic Mantle",
@@ -635,6 +646,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Long Sword",
@@ -682,6 +694,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Pickaxe",
@@ -723,6 +736,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "B. F. Sword",
@@ -772,6 +786,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Hunter's Talisman",
@@ -822,6 +837,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Hunter's Machete",
@@ -867,6 +883,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Dagger",
@@ -919,6 +936,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Recurve Bow",
@@ -959,6 +977,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Brawler's Gloves",
@@ -1011,6 +1030,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Amplifying Tome",
@@ -1058,6 +1078,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Vampiric Scepter",
@@ -1101,6 +1122,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Doran's Shield",
@@ -1142,6 +1164,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Doran's Blade",
@@ -1185,6 +1208,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Doran's Ring",
@@ -1235,6 +1259,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Negatron Cloak",
@@ -1277,6 +1302,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Needlessly Large Rod",
@@ -1323,6 +1349,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "The Dark Seal",
@@ -1368,6 +1395,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Cull",
@@ -1422,6 +1450,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Enchantment: Warrior",
@@ -1472,6 +1501,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Enchantment: Cinderhulk",
@@ -1523,6 +1553,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Enchantment: Runic Echoes",
@@ -1575,6 +1606,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Enchantment: Warrior",
@@ -1626,6 +1658,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Enchantment: Cinderhulk",
@@ -1678,6 +1711,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Enchantment: Runic Echoes",
@@ -1730,6 +1764,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Enchantment: Warrior",
@@ -1781,6 +1816,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Enchantment: Cinderhulk",
@@ -1833,6 +1869,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Enchantment: Runic Echoes",
@@ -1884,6 +1921,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Enchantment: Bloodrazor",
@@ -1935,6 +1973,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Enchantment: Bloodrazor",
@@ -1986,6 +2025,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Enchantment: Bloodrazor",
@@ -2024,6 +2064,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Health Potion",
@@ -2062,6 +2103,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Total Biscuit of Rejuvenation",
@@ -2101,6 +2143,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Total Biscuit of Rejuvenation",
@@ -2135,6 +2178,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Elixir Of Skill",
@@ -2182,6 +2226,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Kircheis Shard",
@@ -2228,6 +2273,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Refillable Potion",
@@ -2275,6 +2321,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Hunter's Potion",
@@ -2327,6 +2374,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Corrupting Potion",
@@ -2374,6 +2422,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Ruby Sightstone",
@@ -2413,6 +2462,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Oracle's Extract",
@@ -2462,6 +2512,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Sightstone",
@@ -2500,6 +2551,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Explorer's Ward",
@@ -2537,6 +2589,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Guardian's Horn",
@@ -2577,6 +2630,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Poro-Snax",
@@ -2624,6 +2678,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Raptor Cloak",
@@ -2663,6 +2718,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Diet Poro-Snax",
@@ -2699,6 +2755,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Control Ward",
@@ -2748,6 +2805,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Elixir of Iron",
@@ -2796,6 +2854,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Elixir of Sorcery",
@@ -2843,6 +2902,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Elixir of Wrath",
@@ -2905,6 +2965,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Eye of the Watchers",
@@ -2967,6 +3028,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Eye of the Oasis",
@@ -3028,6 +3090,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Eye of the Equinox",
@@ -3074,12 +3137,16 @@
                 "x": 144,
                 "y": 288
             },
+            "into": [
+                "3379"
+            ],
             "maps": {
                 "10": true,
                 "11": true,
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Abyssal Mask",
@@ -3138,6 +3205,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Archangel's Staff",
@@ -3190,6 +3258,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Manamune",
@@ -3234,6 +3303,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Berserker's Greaves",
@@ -3285,6 +3355,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Archangel's Staff (Quick Charge)",
@@ -3337,6 +3408,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Manamune (Quick Charge)",
@@ -3383,6 +3455,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Boots of Swiftness",
@@ -3437,6 +3510,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Catalyst of Aeons",
@@ -3483,6 +3557,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Sorcerer's Shoes",
@@ -3529,6 +3604,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Frozen Mallet",
@@ -3583,6 +3659,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Glacial Shroud",
@@ -3633,6 +3710,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Iceborn Gauntlet",
@@ -3683,6 +3761,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Guardian Angel",
@@ -3738,6 +3817,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Rod of Ages",
@@ -3798,6 +3878,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Chalice of Harmony",
@@ -3853,6 +3934,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Rod of Ages (Quick Charge)",
@@ -3913,6 +3995,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Hextech GLP-800",
@@ -3958,12 +4041,16 @@
                 "x": 0,
                 "y": 384
             },
+            "into": [
+                "3371"
+            ],
             "maps": {
                 "10": true,
                 "11": true,
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Infinity Edge",
@@ -4010,6 +4097,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Mortal Reminder",
@@ -4059,6 +4147,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Giant Slayer",
@@ -4106,6 +4195,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Last Whisper",
@@ -4155,6 +4245,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Lord Dominik's Regards",
@@ -4201,6 +4292,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Seraph's Embrace",
@@ -4252,6 +4344,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Mejai's Soulstealer",
@@ -4293,6 +4386,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Muramana",
@@ -4334,6 +4428,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Muramana",
@@ -4385,6 +4480,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Phage",
@@ -4436,6 +4532,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Phantom Dancer",
@@ -4483,6 +4580,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Ninja Tabi",
@@ -4530,6 +4628,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Seraph's Embrace",
@@ -4589,6 +4688,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Zeke's Convergence",
@@ -4648,6 +4748,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Jaurim's Fist",
@@ -4701,6 +4802,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Sterak's Gage",
@@ -4749,6 +4851,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Ohmwrecker",
@@ -4803,6 +4906,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Sheen",
@@ -4851,6 +4955,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Banner of Command",
@@ -4902,6 +5007,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Spirit Visage",
@@ -4958,6 +5064,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Kindlegem",
@@ -4999,12 +5106,16 @@
                 "x": 48,
                 "y": 0
             },
+            "into": [
+                "3373"
+            ],
             "maps": {
                 "10": true,
                 "11": true,
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Sunfire Cape",
@@ -5062,6 +5173,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Talisman of Ascension",
@@ -5121,6 +5233,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Tear of the Goddess",
@@ -5168,12 +5281,16 @@
                 "x": 192,
                 "y": 0
             },
+            "into": [
+                "3380"
+            ],
             "maps": {
                 "10": true,
                 "11": true,
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "The Black Cleaver",
@@ -5227,6 +5344,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "The Bloodthirster",
@@ -5281,6 +5399,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Tear of the Goddess (Quick Charge)",
@@ -5330,6 +5449,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Ravenous Hydra",
@@ -5384,6 +5504,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Thornmail",
@@ -5434,6 +5555,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Bramble Vest",
@@ -5486,6 +5608,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Tiamat",
@@ -5530,12 +5653,16 @@
                 "x": 48,
                 "y": 48
             },
+            "into": [
+                "3384"
+            ],
             "maps": {
                 "10": true,
                 "11": true,
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Trinity Force",
@@ -5595,6 +5722,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Warden's Mail",
@@ -5647,6 +5775,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Warmog's Armor",
@@ -5693,6 +5822,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Overlord's Bloodmail",
@@ -5743,6 +5873,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Runaan's Hurricane",
@@ -5797,6 +5928,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Zeal",
@@ -5850,6 +5982,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Statikk Shiv",
@@ -5893,12 +6026,16 @@
                 "x": 384,
                 "y": 48
             },
+            "into": [
+                "3374"
+            ],
             "maps": {
                 "10": false,
                 "11": true,
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Rabadon's Deathcap",
@@ -5938,12 +6075,16 @@
                 "x": 432,
                 "y": 48
             },
+            "into": [
+                "3385"
+            ],
             "maps": {
                 "10": true,
                 "11": false,
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Wooglet's Witchcap",
@@ -5993,6 +6134,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Wit's End",
@@ -6057,6 +6199,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Frost Queen's Claim",
@@ -6110,6 +6253,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Rapid Firecannon",
@@ -6174,6 +6318,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Nomad's Medallion",
@@ -6235,6 +6380,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Targon's Brace",
@@ -6303,6 +6449,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Frostfang",
@@ -6352,6 +6499,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Lich Bane",
@@ -6405,6 +6553,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Stinger",
@@ -6455,6 +6604,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Banshee's Veil",
@@ -6503,6 +6653,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Lord Van Damm's Pillager",
@@ -6554,6 +6705,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Aegis of the Legion",
@@ -6570,7 +6722,7 @@
         "3107": {
             "colloq": ";",
             "depth": 3,
-            "description": "<stats>+200 Health<br>+50% Base Health Regen <br>+150% Base Mana Regen <br>+10% Cooldown Reduction</stats><br><br><passive>UNIQUE Passive:</passive> +10% Heal and Shield Power<br><active>UNIQUE Active:</active> Target an area within 5500 range. After 2.5 seconds, call down a beam of light to heal allies for 10 (+20 per level of target) Health, burn enemy champions for 10% of their maximum Health as <font color='#FFFFFF'>true</font> damage and deal 250 <font color='#FFFFFF'>true</font> damage to enemy minions (120 second cooldown). Heal and Shield Power is 3 times as effective on Redemption's heal.<br><br>Can be used while dead.<br><br><rules>Half effect if the target has been affected by another Redemption recently.</rules>",
+            "description": "<stats>+200 Health<br>+50% Base Health Regen <br><mana>+150% Base Mana Regen </mana><br>+10% Cooldown Reduction</stats><br><br><passive>UNIQUE Passive:</passive> +10% Heal and Shield Power<br><active>UNIQUE Active:</active> Target an area within 5500 range. After 2.5 seconds, call down a beam of light to heal allies for 10 (+20 per level of target) Health, burn enemy champions for 10% of their maximum Health as <font color='#FFFFFF'>true</font> damage and deal 250 <font color='#FFFFFF'>true</font> damage to enemy minions (120 second cooldown). Heal and Shield Power is 3 times as effective on Redemption's heal.<br><br>Can be used while dead.<br><br><rules>Half effect if the target has been affected by another Redemption recently.</rules>",
             "effect": {
                 "Effect10Amount": "8",
                 "Effect11Amount": "3",
@@ -6603,16 +6755,20 @@
                 "x": 48,
                 "y": 144
             },
+            "into": [
+                "3382"
+            ],
             "maps": {
                 "10": true,
                 "11": true,
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Redemption",
-            "plaintext": "Further improves defenses for nearby allies",
+            "plaintext": "Activate to heal allies and damage enemies in an area",
             "stats": {
                 "FlatHPPoolMod": 200
             },
@@ -6662,6 +6818,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Fiendish Codex",
@@ -6712,6 +6869,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Knight's Vow",
@@ -6761,6 +6919,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Frozen Heart",
@@ -6805,6 +6964,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Mercury's Treads",
@@ -6843,6 +7003,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Guardian's Orb",
@@ -6898,6 +7059,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Aether Wisp",
@@ -6948,6 +7110,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Forbidden Idol",
@@ -6987,6 +7150,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Nashor's Tooth",
@@ -7040,6 +7204,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Rylai's Crystal Scepter",
@@ -7092,6 +7257,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Boots of Mobility",
@@ -7140,6 +7306,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Wicked Hatchet",
@@ -7188,6 +7355,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Executioner's Calling",
@@ -7240,6 +7408,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Guinsoo's Rageblade",
@@ -7300,6 +7469,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Caulfield's Warhammer",
@@ -7355,6 +7525,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Serrated Dirk",
@@ -7400,6 +7571,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Void Staff",
@@ -7447,6 +7619,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Haunting Guise",
@@ -7496,6 +7669,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Dervish Blade",
@@ -7547,6 +7721,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Mercurial Scimitar",
@@ -7599,6 +7774,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Quicksilver Sash",
@@ -7648,6 +7824,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Youmuu's Ghostblade",
@@ -7701,6 +7878,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Randuin's Omen",
@@ -7755,6 +7933,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Bilgewater Cutlass",
@@ -7811,6 +7990,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Hextech Revolver",
@@ -7857,6 +8037,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Hextech Gunblade",
@@ -7917,6 +8098,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Duskblade of Draktharr",
@@ -7968,6 +8150,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Liandry's Torment",
@@ -8023,6 +8206,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Hextech Protobelt-01",
@@ -8070,6 +8254,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Blade of the Ruined King",
@@ -8129,6 +8314,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Hexdrinker",
@@ -8184,6 +8370,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Maw of Malmortius",
@@ -8235,6 +8422,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Zhonya's Hourglass",
@@ -8282,6 +8470,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Ionian Boots of Lucidity",
@@ -8330,6 +8519,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Morellonomicon",
@@ -8374,6 +8564,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Moonflair Spellblade",
@@ -8435,6 +8626,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Athene's Unholy Grail",
@@ -8484,6 +8676,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Head of Kha'Zix",
@@ -8532,6 +8725,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Sanguine Blade",
@@ -8569,6 +8763,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Guardian's Hammer",
@@ -8622,6 +8817,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "The Lightbringer",
@@ -8676,6 +8872,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Arcane Sweeper",
@@ -8729,12 +8926,16 @@
                 "x": 144,
                 "y": 336
             },
+            "into": [
+                "3383"
+            ],
             "maps": {
                 "10": true,
                 "11": true,
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Locket of the Iron Solari",
@@ -8788,6 +8989,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Seeker's Armguard",
@@ -8843,6 +9045,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Gargoyle Stoneplate",
@@ -8892,6 +9095,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Adaptive Helm",
@@ -8942,6 +9146,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "The Hex Core mk-1",
@@ -8988,6 +9193,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "The Hex Core mk-2",
@@ -9031,6 +9237,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Perfect Hex Core",
@@ -9074,6 +9281,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Prototype Hex Core",
@@ -9119,6 +9327,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Spectre's Cowl",
@@ -9177,6 +9386,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Mikael's Crucible",
@@ -9228,6 +9438,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Poacher's Dirk",
@@ -9278,6 +9489,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Luden's Echo",
@@ -9334,6 +9546,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Ancient Coin",
@@ -9388,6 +9601,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Relic Shield",
@@ -9450,6 +9664,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Spellthief's Edge",
@@ -9498,6 +9713,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Warding Totem (Trinket)",
@@ -9548,6 +9764,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Sweeping Lens (Trinket)",
@@ -9585,6 +9802,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Soul Anchor (Trinket)",
@@ -9629,6 +9847,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Arcane Sweeper",
@@ -9676,6 +9895,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Greater Stealth Totem (Trinket)",
@@ -9722,6 +9942,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Greater Vision Totem (Trinket)",
@@ -9774,6 +9995,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Farsight Alteration",
@@ -9820,6 +10042,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Oracle Alteration",
@@ -9829,6 +10052,480 @@
                 "Active",
                 "Trinket",
                 "Vision"
+            ]
+        },
+        "3371": {
+            "colloq": ";ie;Ornn;forge;Masterwork",
+            "depth": 3,
+            "description": "<stats><font color='#FFFFFF'>+100 Attack Damage</font><br>+20% Critical Strike Chance</stats><br><br><unique>UNIQUE Passive:</unique> Critical strike bonus damage is increased by 50%.",
+            "effect": {
+                "Effect1Amount": "0.5"
+            },
+            "from": [
+                "3031"
+            ],
+            "gold": {
+                "base": 1000,
+                "purchasable": true,
+                "sell": 3080,
+                "total": 4400
+            },
+            "image": {
+                "full": "3371.png",
+                "group": "item",
+                "h": 48,
+                "sprite": "item1.png",
+                "w": 48,
+                "x": 288,
+                "y": 432
+            },
+            "maps": {
+                "10": true,
+                "11": true,
+                "12": true,
+                "14": false,
+                "16": false,
+                "18": true,
+                "8": true
+            },
+            "name": "Molten Edge",
+            "plaintext": "Massively enhances critical strikes",
+            "requiredAlly": "Ornn",
+            "stats": {
+                "FlatCritChanceMod": 0.2,
+                "FlatPhysicalDamageMod": 100
+            },
+            "tags": [
+                "Damage",
+                "CriticalStrike"
+            ]
+        },
+        "3373": {
+            "colloq": ";Ornn;forge;Masterwork",
+            "depth": 4,
+            "description": "<stats><font color='#FFFFFF'>+625 Health</font><br><font color='#FFFFFF'>+90 Armor</font></stats><br><br><unique>UNIQUE Passive - Immolate:</unique> Deals 11 (+1 per champion level) magic damage per second to nearby enemies. Deals 200% bonus damage to minions and monsters.",
+            "effect": {
+                "Effect1Amount": "11",
+                "Effect2Amount": "1",
+                "Effect3Amount": "2"
+            },
+            "from": [
+                "3068"
+            ],
+            "gold": {
+                "base": 1000,
+                "purchasable": true,
+                "sell": 2730,
+                "total": 3900
+            },
+            "image": {
+                "full": "3373.png",
+                "group": "item",
+                "h": 48,
+                "sprite": "item1.png",
+                "w": 48,
+                "x": 336,
+                "y": 432
+            },
+            "maps": {
+                "10": true,
+                "11": true,
+                "12": true,
+                "14": false,
+                "16": false,
+                "18": true,
+                "8": true
+            },
+            "name": "Forgefire Cape",
+            "plaintext": "Constantly deals damage to nearby enemies",
+            "requiredAlly": "Ornn",
+            "stats": {
+                "FlatArmorMod": 90,
+                "FlatHPPoolMod": 625
+            },
+            "tags": [
+                "Health",
+                "Armor"
+            ]
+        },
+        "3374": {
+            "colloq": ";dc;banksys;hat;Ornn;forge;Masterwork",
+            "depth": 3,
+            "description": "<stats><font color='#FFFFFF'>+175 Ability Power</font>  </stats><br><br><unique>UNIQUE Passive:</unique> Increases Ability Power by 35%.",
+            "effect": {
+                "Effect1Amount": "35"
+            },
+            "from": [
+                "3089"
+            ],
+            "gold": {
+                "base": 1000,
+                "purchasable": true,
+                "sell": 3360,
+                "total": 4800
+            },
+            "image": {
+                "full": "3374.png",
+                "group": "item",
+                "h": 48,
+                "sprite": "item1.png",
+                "w": 48,
+                "x": 384,
+                "y": 432
+            },
+            "maps": {
+                "10": false,
+                "11": true,
+                "12": true,
+                "14": false,
+                "16": false,
+                "18": true,
+                "8": true
+            },
+            "name": "Rabadon's Deathcrown",
+            "plaintext": "Massively increases Ability Power",
+            "requiredAlly": "Ornn",
+            "stats": {
+                "FlatMagicDamageMod": 175
+            },
+            "tags": [
+                "SpellDamage"
+            ]
+        },
+        "3379": {
+            "colloq": ";Ornn;forge;Masterwork",
+            "depth": 4,
+            "description": "<stats><font color='#FFFFFF'>+550 Health</font><br><mana>+300 Mana</mana><br><font color='#FFFFFF'>+90 Magic Resist</font><br>+10% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive - Eternity:</unique> 15% of damage taken from champions is gained as Mana. Spending Mana restores 20% of the cost as Health, up to 25 per spell cast.<br><aura>UNIQUE Aura:</aura> Nearby enemy champions take 10% more magic damage.",
+            "effect": {
+                "Effect1Amount": "-10",
+                "Effect2Amount": "-25",
+                "Effect3Amount": "0.1",
+                "Effect4Amount": "25",
+                "Effect5Amount": "0.2",
+                "Effect6Amount": "0.15"
+            },
+            "from": [
+                "3001"
+            ],
+            "gold": {
+                "base": 1000,
+                "purchasable": true,
+                "sell": 2730,
+                "total": 3900
+            },
+            "image": {
+                "full": "3379.png",
+                "group": "item",
+                "h": 48,
+                "sprite": "item1.png",
+                "w": 48,
+                "x": 432,
+                "y": 432
+            },
+            "maps": {
+                "10": true,
+                "11": true,
+                "12": true,
+                "14": false,
+                "16": false,
+                "18": true,
+                "8": true
+            },
+            "name": "Infernal Mask",
+            "plaintext": "Nearby enemies take more magic damage",
+            "requiredAlly": "Ornn",
+            "stats": {
+                "FlatHPPoolMod": 550,
+                "FlatMPPoolMod": 300,
+                "FlatSpellBlockMod": 90
+            },
+            "tags": [
+                "Health",
+                "SpellBlock",
+                "HealthRegen",
+                "Mana",
+                "ManaRegen",
+                "Aura",
+                "CooldownReduction",
+                "MagicPenetration"
+            ]
+        },
+        "3380": {
+            "colloq": ";bc;Ornn;forge;Masterwork",
+            "depth": 4,
+            "description": "<stats><font color='#FFFFFF'>+550 Health</font><br><font color='#FFFFFF'>+60 Attack Damage</font><br>+20% Cooldown Reduction</stats><br><br><unique>UNIQUE Passive:</unique> Dealing physical damage to an enemy champion Cleaves them, reducing their Armor by 4% for 6 seconds (stacks up to 6 times, up to 24%).<br><unique>UNIQUE Passive - Rage:</unique> Dealing physical damage grants 20 movement speed for 2 seconds. Assists on Cleaved enemy champions or kills on any unit grant 60 movement speed for 2 seconds instead. This Movement Speed is halved for ranged champions.",
+            "effect": {
+                "Effect10Amount": "0.01",
+                "Effect1Amount": "-0.2",
+                "Effect2Amount": "0.04",
+                "Effect3Amount": "6",
+                "Effect4Amount": "6",
+                "Effect5Amount": "0.24",
+                "Effect6Amount": "20",
+                "Effect7Amount": "2",
+                "Effect8Amount": "60",
+                "Effect9Amount": "2"
+            },
+            "from": [
+                "3071"
+            ],
+            "gold": {
+                "base": 1000,
+                "purchasable": true,
+                "sell": 2800,
+                "total": 4000
+            },
+            "image": {
+                "full": "3380.png",
+                "group": "item",
+                "h": 48,
+                "sprite": "item2.png",
+                "w": 48,
+                "x": 0,
+                "y": 0
+            },
+            "maps": {
+                "10": true,
+                "11": true,
+                "12": true,
+                "14": false,
+                "16": false,
+                "18": true,
+                "8": true
+            },
+            "name": "The Obsidian Cleaver",
+            "plaintext": "Dealing physical damage to enemy champions reduces their Armor",
+            "requiredAlly": "Ornn",
+            "stats": {
+                "FlatHPPoolMod": 550,
+                "FlatPhysicalDamageMod": 60
+            },
+            "tags": [
+                "ArmorPenetration",
+                "CooldownReduction",
+                "Damage",
+                "Health",
+                "NonbootsMovement",
+                "OnHit"
+            ]
+        },
+        "3382": {
+            "colloq": ";Ornn;forge;Masterwork",
+            "depth": 4,
+            "description": "<stats><font color='#FFFFFF'>+300 Health</font><br><font color='#FFFFFF'>+150% Base Health Regen </font><br><font color='#FFFFFF'>+200% Base Mana Regen </font><br>+10% Cooldown Reduction</stats><br><br><passive>UNIQUE Passive:</passive> +10% Heal and Shield Power<br><active>UNIQUE Active:</active> Target an area within 5500 range. After 2.5 seconds, call down a beam of light to heal allies for 10 (+20 per level of target) Health, burn enemy champions for 10% of their maximum Health as <font color='#FFFFFF'>true</font> damage and deal 250 <font color='#FFFFFF'>true</font> damage to enemy minions (120 second cooldown). Heal and Shield Power is 3 times as effective on Salvation's heal.<br><br>Can be used while dead.<br><br><rules>Half effect if the target has been affected by Redemption recently.</rules>",
+            "effect": {
+                "Effect10Amount": "8",
+                "Effect11Amount": "3",
+                "Effect1Amount": "0.1",
+                "Effect2Amount": "10",
+                "Effect3Amount": "20",
+                "Effect4Amount": "0.1",
+                "Effect5Amount": "250",
+                "Effect6Amount": "120",
+                "Effect7Amount": "550",
+                "Effect8Amount": "5500",
+                "Effect9Amount": "0.5"
+            },
+            "from": [
+                "3107"
+            ],
+            "gold": {
+                "base": 500,
+                "purchasable": true,
+                "sell": 1820,
+                "total": 2600
+            },
+            "image": {
+                "full": "3382.png",
+                "group": "item",
+                "h": 48,
+                "sprite": "item2.png",
+                "w": 48,
+                "x": 48,
+                "y": 0
+            },
+            "maps": {
+                "10": true,
+                "11": true,
+                "12": true,
+                "14": false,
+                "16": false,
+                "18": true,
+                "8": true
+            },
+            "name": "Salvation",
+            "plaintext": "Activate to heal allies and damage enemies in an area",
+            "requiredAlly": "Ornn",
+            "stats": {
+                "FlatHPPoolMod": 300
+            },
+            "tags": [
+                "Health",
+                "HealthRegen",
+                "ManaRegen",
+                "CooldownReduction"
+            ]
+        },
+        "3383": {
+            "colloq": ";Ornn;forge;Masterwork",
+            "depth": 4,
+            "description": "<stats><font color='#FFFFFF'>+45 Armor</font><br><font color='#FFFFFF'>+75 Magic Resist</font></stats><br><br><active>UNIQUE Active:</active> Grants a decaying shield to nearby allied champions for 2.5 seconds that absorbs up to 38 (+22 per level) <scaleHealth>(+2%~36% of your bonus health)</scaleHealth> damage (90 second cooldown).<br><br><rules>Shield per level uses the higher of your level or the target's level.<br>Shield ratio scales with your level.<br>Shield amount is reduced to 50% if the target has been affected by another Locket of the Iron Solari in the last 8 seconds.</rules>",
+            "effect": {
+                "Effect1Amount": "38",
+                "Effect2Amount": "22",
+                "Effect3Amount": "2.5",
+                "Effect4Amount": "0.5",
+                "Effect5Amount": "8",
+                "Effect6Amount": "90",
+                "Effect7Amount": "0",
+                "Effect8Amount": "0.02",
+                "Effect9Amount": "0.36"
+            },
+            "from": [
+                "3190"
+            ],
+            "gold": {
+                "base": 500,
+                "purchasable": true,
+                "sell": 1890,
+                "total": 2700
+            },
+            "image": {
+                "full": "3383.png",
+                "group": "item",
+                "h": 48,
+                "sprite": "item2.png",
+                "w": 48,
+                "x": 96,
+                "y": 0
+            },
+            "maps": {
+                "10": true,
+                "11": true,
+                "12": true,
+                "14": false,
+                "16": false,
+                "18": true,
+                "8": true
+            },
+            "name": "Circlet of the Iron Solari",
+            "plaintext": "Activate to shield nearby allies from damage",
+            "requiredAlly": "Ornn",
+            "stats": {
+                "FlatArmorMod": 45,
+                "FlatSpellBlockMod": 75
+            },
+            "tags": [
+                "SpellBlock",
+                "Armor",
+                "Active"
+            ]
+        },
+        "3384": {
+            "colloq": ";triforce;tons of damage;Ornn;forge;Masterwork",
+            "depth": 4,
+            "description": "<stats><font color='#FFFFFF'>+350 Health</font><br><font color='#FFFFFF'><mana>+350 Mana</mana></font><br><font color='#FFFFFF'>+35 Attack Damage</font><br><font color='#FFFFFF'>+50% Attack Speed</font><br>+20% Cooldown Reduction<br><font color='#FFFFFF'>+8% Movement Speed</font></stats><br><br><unique>UNIQUE Passive - Rage:</unique> Basic attacks grant 20 Movement Speed for 2 seconds. Kills grant 60 Movement Speed instead. This Movement Speed bonus is halved for ranged champions.<br><unique>UNIQUE Passive - Spellblade:</unique> After using an ability, the next basic attack deals bonus physical damage equal to 200% of base Attack Damage on hit (1.5 second cooldown).",
+            "effect": {
+                "Effect1Amount": "20",
+                "Effect2Amount": "60",
+                "Effect3Amount": "2",
+                "Effect4Amount": "2",
+                "Effect5Amount": "1.5"
+            },
+            "from": [
+                "3078"
+            ],
+            "gold": {
+                "base": 1000,
+                "purchasable": true,
+                "sell": 3313,
+                "total": 4733
+            },
+            "image": {
+                "full": "3384.png",
+                "group": "item",
+                "h": 48,
+                "sprite": "item2.png",
+                "w": 48,
+                "x": 144,
+                "y": 0
+            },
+            "maps": {
+                "10": true,
+                "11": true,
+                "12": true,
+                "14": false,
+                "16": false,
+                "18": true,
+                "8": true
+            },
+            "name": "Trinity Fusion",
+            "plaintext": "Tons of Damage",
+            "requiredAlly": "Ornn",
+            "stats": {
+                "FlatHPPoolMod": 350,
+                "FlatMPPoolMod": 350,
+                "FlatPhysicalDamageMod": 35,
+                "PercentAttackSpeedMod": 0.5,
+                "PercentMovementSpeedMod": 0.08
+            },
+            "tags": [
+                "Health",
+                "Damage",
+                "AttackSpeed",
+                "Mana",
+                "CooldownReduction",
+                "OnHit",
+                "NonbootsMovement"
+            ]
+        },
+        "3385": {
+            "colloq": ";hat;Ornn;Forge",
+            "depth": 4,
+            "description": "<stats><font color='#FFFFFF'>+155 Ability Power</font><br>+45 Armor  </stats><br><br><unique>UNIQUE Passive:</unique> Increases Ability Power by 25%<br><active>UNIQUE Active:</active> Champion becomes invulnerable and untargetable for 2.5 seconds, but is unable to move, attack, cast spells, or use items during this time (120 second cooldown).",
+            "effect": {
+                "Effect1Amount": "25",
+                "Effect2Amount": "2.5",
+                "Effect3Amount": "120"
+            },
+            "from": [
+                "3090"
+            ],
+            "gold": {
+                "base": 1050,
+                "purchasable": true,
+                "sell": 3185,
+                "total": 4550
+            },
+            "image": {
+                "full": "3385.png",
+                "group": "item",
+                "h": 48,
+                "sprite": "item2.png",
+                "w": 48,
+                "x": 192,
+                "y": 0
+            },
+            "maps": {
+                "10": true,
+                "11": false,
+                "12": false,
+                "14": false,
+                "16": false,
+                "18": false,
+                "8": true
+            },
+            "name": "Wooglet's Witchcrown",
+            "plaintext": "Massively increases Ability Power and can be activated to enter stasis",
+            "requiredAlly": "Ornn",
+            "stats": {
+                "FlatArmorMod": 45,
+                "FlatMagicDamageMod": 155
+            },
+            "tags": [
+                "Active",
+                "Armor",
+                "SpellDamage"
             ]
         },
         "3401": {
@@ -9864,10 +10561,10 @@
                 "full": "3401.png",
                 "group": "item",
                 "h": 48,
-                "sprite": "item1.png",
+                "sprite": "item2.png",
                 "w": 48,
-                "x": 288,
-                "y": 432
+                "x": 240,
+                "y": 0
             },
             "maps": {
                 "10": true,
@@ -9875,6 +10572,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Face of the Mountain",
@@ -9912,10 +10610,10 @@
                 "full": "3410.png",
                 "group": "item",
                 "h": 48,
-                "sprite": "item1.png",
+                "sprite": "item2.png",
                 "w": 48,
-                "x": 336,
-                "y": 432
+                "x": 288,
+                "y": 0
             },
             "inStore": false,
             "maps": {
@@ -9924,6 +10622,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Head of Kha'Zix",
@@ -9960,10 +10659,10 @@
                 "full": "3416.png",
                 "group": "item",
                 "h": 48,
-                "sprite": "item1.png",
+                "sprite": "item2.png",
                 "w": 48,
-                "x": 384,
-                "y": 432
+                "x": 336,
+                "y": 0
             },
             "inStore": false,
             "maps": {
@@ -9972,6 +10671,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Head of Kha'Zix",
@@ -10004,10 +10704,10 @@
                 "full": "3422.png",
                 "group": "item",
                 "h": 48,
-                "sprite": "item1.png",
+                "sprite": "item2.png",
                 "w": 48,
-                "x": 432,
-                "y": 432
+                "x": 384,
+                "y": 0
             },
             "inStore": false,
             "maps": {
@@ -10016,6 +10716,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Head of Kha'Zix",
@@ -10050,7 +10751,7 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 0,
+                "x": 432,
                 "y": 0
             },
             "inStore": false,
@@ -10060,6 +10761,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Head of Kha'Zix",
@@ -10088,8 +10790,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 48,
-                "y": 0
+                "x": 0,
+                "y": 48
             },
             "inStore": false,
             "maps": {
@@ -10098,6 +10800,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Golden Transcendence",
@@ -10123,8 +10826,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 96,
-                "y": 0
+                "x": 48,
+                "y": 48
             },
             "inStore": false,
             "maps": {
@@ -10133,6 +10836,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Golden Transcendence (Disabled)",
@@ -10165,8 +10869,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 144,
-                "y": 0
+                "x": 96,
+                "y": 48
             },
             "inStore": false,
             "maps": {
@@ -10175,6 +10879,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": true
             },
             "name": "Seer Stone (Trinket)",
@@ -10189,12 +10894,12 @@
         "3504": {
             "colloq": "",
             "depth": 3,
-            "description": "<stats>+60 Ability Power<br>+10% Cooldown Reduction<br><mana>+50% Base Mana Regen </mana></stats><br><br><unique>UNIQUE Passive:</unique> +10% Heal and Shield Power<br><unique>UNIQUE Passive:</unique> +8% Movement Speed<br><unique>UNIQUE Passive:</unique> Your heals and shields on another allied champion grant them 20% - 35% Attack Speed and their attacks drain 20 - 35 health on-hit for 6 seconds.<br><br><rules>(This does not include regeneration effects or effects on yourself. Bonus effects are based on target's level.</rules>)</rules>",
+            "description": "<stats>+60 Ability Power<br>+10% Cooldown Reduction<br><mana>+50% Base Mana Regen </mana></stats><br><br><unique>UNIQUE Passive:</unique> +10% Heal and Shield Power<br><unique>UNIQUE Passive:</unique> +8% Movement Speed<br><unique>UNIQUE Passive:</unique> Your heals and shields on another allied champion grant them 25% Attack Speed and their attacks drain 25 health on-hit for 6 seconds.<br><br><rules>(This does not include regeneration effects or effects on yourself. Bonus effects are based on target's level.</rules>)</rules>",
             "effect": {
                 "Effect1Amount": "0.08",
-                "Effect2Amount": "0.2",
+                "Effect2Amount": "0.25",
                 "Effect3Amount": "6",
-                "Effect4Amount": "20",
+                "Effect4Amount": "25",
                 "Effect5Amount": "0.1",
                 "Effect6Amount": "0.35",
                 "Effect7Amount": "35"
@@ -10215,8 +10920,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 192,
-                "y": 0
+                "x": 144,
+                "y": 48
             },
             "maps": {
                 "10": true,
@@ -10224,6 +10929,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Ardent Censer",
@@ -10267,8 +10973,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 240,
-                "y": 0
+                "x": 192,
+                "y": 48
             },
             "maps": {
                 "10": true,
@@ -10276,6 +10982,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Essence Reaver",
@@ -10328,8 +11035,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 288,
-                "y": 0
+                "x": 240,
+                "y": 48
             },
             "maps": {
                 "10": false,
@@ -10337,6 +11044,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Zz'Rot Portal",
@@ -10374,8 +11082,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 336,
-                "y": 0
+                "x": 288,
+                "y": 48
             },
             "inStore": false,
             "maps": {
@@ -10384,6 +11092,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Eye of the Herald",
@@ -10409,8 +11118,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 384,
-                "y": 0
+                "x": 336,
+                "y": 48
             },
             "maps": {
                 "10": true,
@@ -10418,6 +11127,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "The Black Spear",
@@ -10443,8 +11153,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 432,
-                "y": 0
+                "x": 384,
+                "y": 48
             },
             "inStore": false,
             "maps": {
@@ -10453,6 +11163,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Siege Teleport",
@@ -10488,7 +11199,7 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 0,
+                "x": 432,
                 "y": 48
             },
             "maps": {
@@ -10497,6 +11208,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Siege Ballista",
@@ -10533,8 +11245,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 48,
-                "y": 48
+                "x": 0,
+                "y": 96
             },
             "inStore": false,
             "maps": {
@@ -10543,6 +11255,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "",
@@ -10565,8 +11278,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 96,
-                "y": 48
+                "x": 48,
+                "y": 96
             },
             "inStore": false,
             "maps": {
@@ -10575,6 +11288,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Siege Teleport",
@@ -10611,8 +11325,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 144,
-                "y": 48
+                "x": 96,
+                "y": 96
             },
             "maps": {
                 "10": false,
@@ -10620,6 +11334,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Tower: Beam of Ruination",
@@ -10650,8 +11365,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 192,
-                "y": 48
+                "x": 144,
+                "y": 96
             },
             "maps": {
                 "10": false,
@@ -10659,6 +11374,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Port Pad",
@@ -10690,8 +11406,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 240,
-                "y": 48
+                "x": 192,
+                "y": 96
             },
             "maps": {
                 "10": false,
@@ -10699,6 +11415,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Tower: Storm Bulwark",
@@ -10723,8 +11440,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 288,
-                "y": 48
+                "x": 240,
+                "y": 96
             },
             "inStore": false,
             "maps": {
@@ -10733,6 +11450,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Nexus Siege: Siege Weapon Slot",
@@ -10761,8 +11479,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 336,
-                "y": 48
+                "x": 288,
+                "y": 96
             },
             "maps": {
                 "10": false,
@@ -10770,6 +11488,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Flash Zone",
@@ -10804,8 +11523,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 384,
-                "y": 48
+                "x": 336,
+                "y": 96
             },
             "maps": {
                 "10": false,
@@ -10813,6 +11532,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Vanguard Banner",
@@ -10840,8 +11560,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 432,
-                "y": 48
+                "x": 384,
+                "y": 96
             },
             "maps": {
                 "10": false,
@@ -10849,6 +11569,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Siege Refund",
@@ -10878,7 +11599,7 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 0,
+                "x": 432,
                 "y": 96
             },
             "maps": {
@@ -10887,6 +11608,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Entropy Field",
@@ -10916,8 +11638,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 48,
-                "y": 96
+                "x": 0,
+                "y": 144
             },
             "inStore": false,
             "maps": {
@@ -10926,6 +11648,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Seer Stone (Trinket)",
@@ -10964,8 +11687,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 96,
-                "y": 96
+                "x": 48,
+                "y": 144
             },
             "maps": {
                 "10": false,
@@ -10973,6 +11696,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Shield Totem",
@@ -10995,8 +11719,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 144,
-                "y": 96
+                "x": 96,
+                "y": 144
             },
             "inStore": false,
             "maps": {
@@ -11005,6 +11729,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Siege Teleport (Inactive)",
@@ -11030,8 +11755,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 192,
-                "y": 96
+                "x": 144,
+                "y": 144
             },
             "inStore": false,
             "maps": {
@@ -11040,6 +11765,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Siege Sight Warder",
@@ -11067,8 +11793,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 240,
-                "y": 96
+                "x": 192,
+                "y": 144
             },
             "maps": {
                 "10": true,
@@ -11076,6 +11802,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Enchantment: Warrior",
@@ -11105,8 +11832,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 288,
-                "y": 96
+                "x": 240,
+                "y": 144
             },
             "maps": {
                 "10": true,
@@ -11114,6 +11841,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Enchantment: Cinderhulk",
@@ -11144,8 +11872,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 336,
-                "y": 96
+                "x": 288,
+                "y": 144
             },
             "maps": {
                 "10": true,
@@ -11153,6 +11881,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Enchantment: Runic Echoes",
@@ -11183,8 +11912,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 384,
-                "y": 96
+                "x": 336,
+                "y": 144
             },
             "maps": {
                 "10": true,
@@ -11192,6 +11921,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Enchantment: Bloodrazor",
@@ -11227,8 +11957,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 432,
-                "y": 96
+                "x": 384,
+                "y": 144
             },
             "maps": {
                 "10": false,
@@ -11236,6 +11966,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Frosted Snax",
@@ -11270,7 +12001,7 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 0,
+                "x": 432,
                 "y": 144
             },
             "maps": {
@@ -11279,6 +12010,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Super Spicy Snax",
@@ -11316,8 +12048,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 48,
-                "y": 144
+                "x": 0,
+                "y": 192
             },
             "maps": {
                 "10": false,
@@ -11325,6 +12057,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Espresso Snax",
@@ -11363,8 +12096,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 96,
-                "y": 144
+                "x": 48,
+                "y": 192
             },
             "maps": {
                 "10": false,
@@ -11372,6 +12105,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Rainbow Snax Party Pack!",
@@ -11397,8 +12131,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 144,
-                "y": 144
+                "x": 96,
+                "y": 192
             },
             "maps": {
                 "10": false,
@@ -11406,6 +12140,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Cosmic Shackle",
@@ -11428,8 +12163,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 192,
-                "y": 144
+                "x": 144,
+                "y": 192
             },
             "maps": {
                 "10": false,
@@ -11437,6 +12172,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Singularity Lantern",
@@ -11459,8 +12195,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 240,
-                "y": 144
+                "x": 192,
+                "y": 192
             },
             "maps": {
                 "10": false,
@@ -11468,6 +12204,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Dark Matter Scythe",
@@ -11490,8 +12227,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 288,
-                "y": 144
+                "x": 240,
+                "y": 192
             },
             "maps": {
                 "10": false,
@@ -11499,6 +12236,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Gravity Boots",
@@ -11523,8 +12261,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 336,
-                "y": 144
+                "x": 288,
+                "y": 192
             },
             "maps": {
                 "10": false,
@@ -11532,6 +12270,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Cloak of Stars",
@@ -11556,8 +12295,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 384,
-                "y": 144
+                "x": 336,
+                "y": 192
             },
             "maps": {
                 "10": false,
@@ -11565,6 +12304,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": false,
                 "8": false
             },
             "name": "Dark Star Sigil",
@@ -11605,8 +12345,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 432,
-                "y": 144
+                "x": 384,
+                "y": 192
             },
             "into": [
                 "1400",
@@ -11620,6 +12360,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Stalker's Blade",
@@ -11666,7 +12407,7 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 0,
+                "x": 432,
                 "y": 192
             },
             "into": [
@@ -11681,6 +12422,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Tracker's Knife",
@@ -11727,8 +12469,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 48,
-                "y": 192
+                "x": 0,
+                "y": 240
             },
             "into": [
                 "1412",
@@ -11742,6 +12484,7 @@
                 "12": false,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": false
             },
             "name": "Skirmisher's Sabre",
@@ -11781,8 +12524,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 96,
-                "y": 192
+                "x": 48,
+                "y": 240
             },
             "maps": {
                 "10": true,
@@ -11790,6 +12533,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Dead Man's Plate",
@@ -11839,8 +12583,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 144,
-                "y": 192
+                "x": 96,
+                "y": 240
             },
             "maps": {
                 "10": true,
@@ -11848,6 +12592,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Titanic Hydra",
@@ -11888,8 +12633,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 192,
-                "y": 192
+                "x": 144,
+                "y": 240
             },
             "into": [
                 "3068",
@@ -11904,6 +12649,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Bami's Cinder",
@@ -11944,8 +12690,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 240,
-                "y": 192
+                "x": 192,
+                "y": 240
             },
             "maps": {
                 "10": true,
@@ -11953,6 +12699,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Righteous Glory",
@@ -11993,8 +12740,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 288,
-                "y": 192
+                "x": 240,
+                "y": 240
             },
             "into": [
                 "3800",
@@ -12008,6 +12755,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Crystalline Bracer",
@@ -12050,8 +12798,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 336,
-                "y": 192
+                "x": 288,
+                "y": 240
             },
             "into": [
                 "3165"
@@ -12062,6 +12810,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Lost Chapter",
@@ -12102,8 +12851,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 384,
-                "y": 192
+                "x": 336,
+                "y": 240
             },
             "maps": {
                 "10": true,
@@ -12111,6 +12860,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Death's Dance",
@@ -12153,8 +12903,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 432,
-                "y": 192
+                "x": 384,
+                "y": 240
             },
             "maps": {
                 "10": true,
@@ -12162,6 +12912,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Edge of Night",
@@ -12194,7 +12945,7 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 0,
+                "x": 432,
                 "y": 240
             },
             "maps": {
@@ -12203,6 +12954,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Fire at Will",
@@ -12228,8 +12980,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 48,
-                "y": 240
+                "x": 0,
+                "y": 288
             },
             "maps": {
                 "10": true,
@@ -12237,6 +12989,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Death's Daughter",
@@ -12262,8 +13015,8 @@
                 "h": 48,
                 "sprite": "item2.png",
                 "w": 48,
-                "x": 96,
-                "y": 240
+                "x": 48,
+                "y": 288
             },
             "maps": {
                 "10": true,
@@ -12271,6 +13024,7 @@
                 "12": true,
                 "14": false,
                 "16": false,
+                "18": true,
                 "8": true
             },
             "name": "Raise Morale",
@@ -12332,6 +13086,10 @@
         {
             "MaxGroupOwnable": "-1",
             "id": "NonItem"
+        },
+        {
+            "MaxGroupOwnable": "1",
+            "id": "OrnnItems"
         },
         {
             "MaxGroupOwnable": "1",
@@ -12465,5 +13223,5 @@
         }
     ],
     "type": "item",
-    "version": "7.16.1"
+    "version": "7.17.1"
 }
