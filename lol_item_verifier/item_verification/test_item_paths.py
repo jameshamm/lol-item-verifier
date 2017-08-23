@@ -3,7 +3,7 @@ Check that items build into one another correctly
 
 All tests here validate the links between items
 """
-from util import TEST_STATUS, set_status, run_tests
+from . import TEST_STATUS, set_status, run_tests
 
 
 @set_status(TEST_STATUS.in_development)

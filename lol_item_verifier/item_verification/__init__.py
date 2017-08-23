@@ -1,20 +1,21 @@
-"""
-A general list of functions that might be useful to test the data sets, along with some constants
-
-TODO: Move constants outside of the util file
-TODO: Move loading and saving data sets to its own module
-"""
-import json
-
 from enum import Enum
+from util import load_data
 
-DEFAULT_PATH = "data_set/items-7_17_1-en_US_pretty.json"
 
 TEST_STATUS = Enum('Test_Status', 'ready in_development unused')
 
 TESTS = dict()
 # Contains all the tests indexed by their current status.
 # Useful for running all tests of a particular status
+
+
+def run_dev_tests():
+    """Run the currently known developing tests from the imports below"""
+    from . import test_item_paths
+    from . import test_item_sanity
+
+    print("--- Running developing tests ---")
+    run_tests(TEST_STATUS.in_development)
 
 
 def set_status(status, tests=None):
@@ -50,9 +51,3 @@ def run_tests(*statuses):
                     error_log, bad_items = log
                     message += " - " + error_log + ": " + str(bad_items)
                 print(message)
-
-
-def load_data(filepath=DEFAULT_PATH):
-    """Load the items from a json file into a dict"""
-    with open(filepath) as file:
-        return json.load(file)

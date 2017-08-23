@@ -1,34 +1,47 @@
-Doran's Balde (1055) has an effect "Effect1Amount" of "10". This is probably the legacy code that gave it AD, but could related to the gold per 10 it used to give.
+## Legacy Effects
 
-Task: Sift through previous item set versions until this number is affected. The most likely patch this became obsolete is 3.14
+### Doran's Balde (1055):
 
+    Issue: Dblade has an effect "Effect1Amount" which is currently set to "10". This is probably the legacy code that gave it AD, but could related to the gold per 10 it used to give.
 
-Cull (1083) has dblade listed in its colloq
-
-Task: Verify the item appears when you search for dblade in the shop
-
-
-Enchantments (Many) appear to be repeated in the data set
-
-Task: Find any place they are different, and see if the item 
-can be seen in the online item shop
+    Task: Sift through previous item set versions until this number is affected. The most likely patch this became obsolete is 3.14
 
 
-Total Biscuit of Rejuvenation (2010, not the other one) does not mention it's limit of 5 in it's description, whereas health potions do.
+### Cull (1083)
+    Issue: cull has dblade listed in its colloq.
 
-Task: Find any other items which have a limited amount available at once, either through the stack property, or through the <groupLimit> tag in the description
-
-
-Sightstone (2045, 2049) consume a charge when a ward is placed. Is the charge unique to each sightstone?
-
-Task: Investigate what happens when multiple sightstones are used from a single inventory
+    Task: Verify the item appears when you search for dblade in the shop. Also check how long this has been the case.
 
 
-Base health regen and base mana regen are not listed in an items stats or effects. See forbidden idol
+### Enchantments (Many)
+    Issue: There appears to be repeated enchantments in the data set.
 
-Task: What items affect base hp and mana regen>
+    Task: Find any place they are different, and see if the item can be found in the online item shop.
 
 
-Searching for doran brings up the Control Ward (2055)
+### Total Biscuit of Rejuvenation (2010, not the other one)
 
-Task: See what causes this
+    Issue: This item does not mention it's limit of 5 in it's description, whereas health potions do.
+
+    Task: Find any other items which have a limited amount available at once, either through the stack property, or through the <groupLimit> tag in the description
+
+
+### Sightstone (2045, 2049)
+
+    Issue: Sightstone will consume a charge when a ward is placed. Is the charge unique to each sightstone?
+
+    Task: Investigate what happens when multiple sightstones are used from a single inventory.
+
+
+### Base health regen and base mana regen
+
+    Issue: The above stats are not listed in some items stats or effects. See forbidden idol for an example.
+
+    Task: Find all items that affect base hp and mana regen.
+
+
+### Control Ward (2055)
+
+    Issue: Searching for doran brings up the control ward.
+
+    Task: Find the cause of this.

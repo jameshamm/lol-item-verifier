@@ -3,7 +3,7 @@ Contains tests that check the stand alone validity of an item
 
 All tests here should only check one item at a time and not compare it to other items
 """
-from util import TEST_STATUS, set_status, run_tests
+from . import TEST_STATUS, set_status, run_tests
 
 
 @set_status(TEST_STATUS.unused)
