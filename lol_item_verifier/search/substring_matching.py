@@ -2,13 +2,20 @@
 
 """
 
-from lol_item_verifier.data import load_data
 
+def match(data_set, search_term):
+    """Looks for the items in which the search term is
+    a substring of the name or one of the colloqs."""
+    all_items = data_set["data"]
+    search_term = search_term.lower()
 
-def match_substring():
-    data_set = load_data()
-    print(data_set.keys())
+    matches = list()
+    for item, data in all_items.items():
+        if search_term in data["name"].lower():
+            matches.append((item, data["name"]))
+        elif "colloq" in data:
+            for colloq in data["colloq"].split(";"):
+                if search_term in colloq.lower():
+                    matches.append((item, data["name"], colloq))
 
-
-if __name__ == "__main__":
-    match_substring()
+    return matches
